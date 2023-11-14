@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script
+      src="https://kit.fontawesome.com/5ba24f118f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav>
+      <img src="images/logo.svg" alt="" />
+      <div class="navigation">
+        <ul>
+         <i id="menu-close" class="fa-sharp fa-solid fa-circle-xmark"></i>
+          <li><a  href="#">Home</a></li>
+          <li><a  href="about.html">About</a></li>
+          <li><a class="active" href="blog.html">Blog</a></li>
+          <li><a href="coures.html">Coureses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu-btn" src="images/menu.png" alt="">
+      </div>
+    </nav>
+
+    <section id="about-home">
+      <h2>Blog</h2>
+      </div>
+    </section>
+
+    <section id="blog-container">
+        <div class="blogs">
+            <div class="post">
+                <img src="images/b1.jpg" alt="">
+                <h3>Learn wb development In The Easiest  Way</h3>
+                <p>Choose from a range of vocational skill training and non-formal academic curriculum-based training programs, to write your own destiny</p>
+                <a href="Post.html">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b2.jpg" alt="">
+                <h3>Learn wb development In The Easiest  Way</h3>
+                <p>Choose from a range of vocational skill training and non-formal academic curriculum-based training programs, to write your own destiny</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b3.jpg" alt="">
+                <h3>Learn wb development In The Easiest  Way</h3>
+                <p>Choose from a range of vocational skill training and non-formal academic curriculum-based training programs, to write your own destiny</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="post">
+                <img src="images/b4 (1).png" alt="">
+                <h3>Learn wb development In The Easiest  Way</h3>
+                <p>Choose from a range of vocational skill training and non-formal academic curriculum-based training programs, to write your own destiny</p>
+                <a href="#">Read More</a>
+            </div>
+            
+        </div>
+
+        <div class="cate">
+            <h2>Categories</h2>
+            <hr>
+            <a href="#">Web development</a>
+            <hr>
+            
+            <a href="#">Web design</a>
+            <hr>
+           
+            <a href="#">App development</a>
+            <hr>
+            
+            <a href="#">Fronted development</a>
+            <hr>
+            
+            <a href="#">Python Programimg</a>
+            <hr>
+            
+            <a href="#">JavaScript</a>
+            <hr>
+        </div>
+    </section>
+
+
+
+
+
+    <footer>
+      <div class="footer-col">
+        <h3>Top products></h3>
+        <li>Manager Reputation</li>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Marketing Service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <li>Power Tools</li>
+        <li>Job</li>
+        <li>Markiting service</li>
+        <li>Manage Reputation</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Feacitures</h3>
+        <li>Power Tools</li>
+        <li>Managed Website</li>
+        <li>Manage Reputation</li>
+      </div>
+
+      <div class="footer-col">
+        <h3>Guides</h3>
+        <li>Research</li>
+        <li>Experts</li>
+        <li>Managed Website</li>
+        <li>Markiting service</li>
+      </div>
+      <div class="footer-col">
+        <h3>Newsletter</h3>
+        <p> You can trust us. we only send promo offers ,</p>
+        <div class="subscribe">
+            <input type="text" placeholder="You Email Adders">
+            <a href="#" class="yellow">SUBSCRIBE</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright @  2023 All rights reseved | This is Templated is made by Aptech </p>
+        <div class="pro-links">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+      </div>
+    </footer>
+   <script>
+     $('#menu-btn').click(function(){
+        $('nav .navigation ul').addClass('active')
+     })
+     $('#menu-close').click(function(){
+        $('nav .navigation ul').removeClass('active')
+     })
+   </script>
+  </body>
+</html>
